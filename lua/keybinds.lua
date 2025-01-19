@@ -1,6 +1,9 @@
 vim.opt.number = true
 
 vim.g.mapleader = " "
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
 
 function Map(mode, leftSide, rightSide)
 	vim.keymap.set(mode, leftSide, rightSide, { noremap = true, silent = true })
