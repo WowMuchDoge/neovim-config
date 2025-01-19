@@ -1,5 +1,3 @@
-vim.opt.number = true
-
 vim.g.mapleader = " "
 
 function Map(mode, leftSide, rightSide)
