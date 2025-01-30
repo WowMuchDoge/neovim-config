@@ -1,3 +1,5 @@
+local telescope = require('telescope.builtin')
+
 vim.g.mapleader = " "
 
 function Map(mode, leftSide, rightSide)
@@ -17,5 +19,5 @@ Map("n", "<C-Right>", ":vertical resize +1<CR>")
 Map("v", "<", "<gv")
 Map("v", ">", ">gv")
 
--- Reconfiguring Comment.nvim
-Map("v", "<leader>cl", "gcc")
+-- Telescope stuff
+vim.keymap.set('n', '<leader>ff', telescope.find_files, { desc = 'Telescope find files' })
