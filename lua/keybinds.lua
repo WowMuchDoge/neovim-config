@@ -17,7 +17,3 @@ Map("n", "<C-Up>", ":resize -1<CR>")
 Map("n", "<C-Down>", ":resize +1<CR>")
 Map("n", "<C-Left>", ":vertical resize -1<CR>")
 Map("n", "<C-Right>", ":vertical resize +1<CR>")
-
--- Horizontal text movement
-Map("v", "<", "<gv")
-Map("v", ">", ">gv")

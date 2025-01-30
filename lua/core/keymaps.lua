@@ -16,3 +16,6 @@ Map("n", "<C-Right>", ":vertical resize +1<CR>")
 -- Horizontal text movement
 Map("v", "<", "<gv")
 Map("v", ">", ">gv")
+
+-- Reconfiguring Comment.nvim
+Map("v", "<leader>cl", "gcc")

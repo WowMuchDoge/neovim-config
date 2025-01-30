@@ -20,5 +20,12 @@ return {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
+	},
+
+	{
+		'numToStr/Comment.nvim',
+		opts = {
+
+		}
 	}
 }
