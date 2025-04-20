@@ -70,3 +70,6 @@
   require('lspconfig')['clangd'].setup {
     capabilities = capabilities
   }
+  require('lspconfig')['ts_ls'].setup {
+    capabilities = capabilities
+  }
